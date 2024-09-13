@@ -1989,16 +1989,12 @@ doppelsoldner_reform = {
 	modifiers = {
 		mercenary_cost = -0.2
 		mercenary_manpower = 0.25
-		mercenary_discipline = 0.025
 	}
 	conditional = {
 		allow = { has_dlc = "Domination" }
 		government_abilities = {
 			hessian_militarization_mechanic
 		}
-	}
-	custom_attributes = {
-		mercs_do_not_cost_army_professionalism = yes
 	}
 	
 	ai = {
@@ -5337,7 +5333,7 @@ cuman_lancers_reform = {
 		army_tradition_on_stackwipe = yes
 	}
 	modifiers = {
-		cav_to_inf_ratio = 0.25
+		cav_to_inf_ratio = 0.20
 		cavalry_cost = -0.2
 	}
 	
