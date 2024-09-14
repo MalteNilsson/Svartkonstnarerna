@@ -221,14 +221,14 @@ ibadi_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = ibadi }
-				dominant_religion = ibadi
-			}
-			change_religion = ibadi
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = ibadi }
+		#		dominant_religion = ibadi
+		#	}
+		#	change_religion = ibadi
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = ibadi }

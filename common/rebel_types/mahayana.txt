@@ -221,14 +221,14 @@ mahayana_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = mahayana }
-				dominant_religion = mahayana
-			}
-			change_religion = mahayana
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = mahayana }
+		#		dominant_religion = mahayana
+		#	}
+		#	change_religion = mahayana
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = mahayana }

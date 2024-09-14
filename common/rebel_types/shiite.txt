@@ -221,14 +221,14 @@ shiite_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = shiite }
-				dominant_religion = shiite
-			}
-			change_religion = shiite
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = shiite }
+		#		dominant_religion = shiite
+		#	}
+		#	change_religion = shiite
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = shiite }

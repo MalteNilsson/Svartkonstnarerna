@@ -221,14 +221,14 @@ vajrayana_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = vajrayana }
-				dominant_religion = vajrayana
-			}
-			change_religion = vajrayana
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = vajrayana }
+		#		dominant_religion = vajrayana
+		#	}
+		#	change_religion = vajrayana
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = vajrayana }

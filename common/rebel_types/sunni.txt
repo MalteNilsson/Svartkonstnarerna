@@ -220,14 +220,14 @@ sunni_rebels = {
 				duration = 3650
 			}
 		}
-		else_if = {
-			limit = {
-				NOT = { religion = sunni }
-				dominant_religion = sunni
-			}
-			change_religion = sunni
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = sunni }
+		#		dominant_religion = sunni
+		#	}
+		#	change_religion = sunni
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = sunni }

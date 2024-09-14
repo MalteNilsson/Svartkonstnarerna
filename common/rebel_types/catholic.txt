@@ -239,15 +239,15 @@ catholic_rebels = {
 				influence = 15
 			}
 		}
-		if = {
-			limit = {
-				NOT = { religion = catholic }
-				dominant_religion = catholic
-				NOT = { tag = PAP }
-			}
-			change_religion = catholic
-			force_converted = yes
-		}
+		#if = {
+		#	limit = {
+		#		NOT = { religion = catholic }
+		#		dominant_religion = catholic
+		#		NOT = { tag = PAP }
+		#	}
+		#	change_religion = catholic
+		#	force_converted = yes
+		#}
 		if = {
 			limit = {
 				NOT = { religion = catholic }

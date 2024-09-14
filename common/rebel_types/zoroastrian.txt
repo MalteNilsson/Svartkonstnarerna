@@ -221,15 +221,15 @@ zoroastrian_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = zoroastrian }
-				dominant_religion = zoroastrian
-				NOT = { tag = PAP }
-			}
-			change_religion = zoroastrian
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = zoroastrian }
+		#		dominant_religion = zoroastrian
+		#		NOT = { tag = PAP }
+		#	}
+		#	change_religion = zoroastrian
+		#	force_converted = yes
+		#}
 		else = { add_stability = -1 }
 		if = {
 			limit = {

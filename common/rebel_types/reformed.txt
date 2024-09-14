@@ -216,15 +216,15 @@ reformed_rebels = {
 			add_stability = -1
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = reformed }
-				dominant_religion = reformed
-				NOT = { tag = PAP }
-			}
-			change_religion = reformed
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = reformed }
+		#		dominant_religion = reformed
+		#		NOT = { tag = PAP }
+		#	}
+		#	change_religion = reformed
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				religion = reformed

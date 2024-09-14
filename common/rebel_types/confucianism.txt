@@ -220,14 +220,14 @@ confucianism_rebels = {
 			}
 		}
 		
-		else_if = {
-			limit = {
-				NOT = { religion = confucianism }
-				dominant_religion = confucianism
-			}
-			change_religion = confucianism
-			force_converted = yes
-		}
+		#else_if = {
+		#	limit = {
+		#		NOT = { religion = confucianism }
+		#		dominant_religion = confucianism
+		#	}
+		#	change_religion = confucianism
+		#	force_converted = yes
+		#}
 		else_if = {
 			limit = {
 				NOT = { religion = confucianism }
