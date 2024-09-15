@@ -7254,7 +7254,7 @@ HES_ideas = {
 		global_tax_modifier = 0.1
 	}
 	break_the_hessian_estates = {
-		global_manpower = 0.15
+		global_manpower_modifier = 0.15
 	}
 }
 
