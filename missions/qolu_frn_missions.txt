@@ -6,6 +6,7 @@ qolu_frn_slot_1 = {
 		OR = {
 			tag = FRN
 			tag = WES
+			tag = HAN
 		}
 	}
 	has_country_shield = yes
@@ -91,6 +92,7 @@ qolu_frn_slot_2 = {
 		OR = {
 			tag = FRN
 			tag = WES
+			tag = HAN
 		}
 	}
 	has_country_shield = yes
@@ -211,9 +213,23 @@ qolu_frn_slot_2 = {
 		}
 
 		effect = {
-			add_country_modifier = {
-				name = qolu_rhenish_mercenaries
-				duration = -1
+			if = {
+				limit = {
+					tag = WES
+				}
+				add_country_modifier = {
+					name = qolu_rhenish_mercenaries
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					tag = HAN
+				}
+				add_country_modifier = {
+					name = sk_quell_the_north
+					duration = -1
+				}
 			}
 		}
 	}
@@ -227,6 +243,7 @@ qolu_frn_slot_3 = {
 		OR = {
 			tag = FRN
 			tag = WES
+			tag = HAN
 		}
 	}
 	has_country_shield = yes
@@ -323,6 +340,7 @@ qolu_frn_slot_4 = {
 		OR = {
 			tag = FRN
 			tag = WES
+			tag = HAN
 		}
 	}
 	has_country_shield = yes
@@ -453,6 +471,7 @@ qolu_frn_slot_5 = {
 		OR = {
 			tag = FRN
 			tag = WES
+			tag = HAN
 		}
 	}
 	has_country_shield = yes

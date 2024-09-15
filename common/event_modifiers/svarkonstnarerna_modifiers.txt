@@ -1,0 +1,5 @@
+sk_quell_the_north = {
+    manpower_recovery_speed = 0.1
+    reinforce_speed = 0.1
+    reinforce_cost_modifier =-0.1
+}
