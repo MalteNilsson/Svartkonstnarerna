@@ -11054,11 +11054,11 @@ TPR_ideas = {
 
 HAN_ideas = {
 	start = {
-		infantry_power = 0.1
+		cavalry_power = 0.15
 		army_tradition = 0.5
 	}
 	bonus = {
-		discipline = 0.05
+		cavalry_shock = 0.4
 	}
 	trigger = {
 		tag = HAN
@@ -11072,6 +11072,7 @@ HAN_ideas = {
 		development_cost = -0.1
 	}
 	han_shutzenfest = {
+		cav_to_inf_ratio = 0.2
 		land_maintenance_modifier = -0.1
 	}
 	han_herrenhausen_gardens = {
@@ -11088,6 +11089,7 @@ HAN_ideas = {
 	}
 	han_kings_legion = {
 		fire_damage_received = -0.15
+		discipline = 0.05
 	}
 }
 

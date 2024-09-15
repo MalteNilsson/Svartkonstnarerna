@@ -804,7 +804,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			was_never_german_regional_tag_trigger = no
+			was_never_german_regional_tag_trigger = yes
 			NOT = { has_country_flag = formed_hannover_flag }
 			OR = {
 				ai = no
@@ -819,7 +819,8 @@ country_decisions = {
 			NOT = { exists = HAN }
 			OR = {
 			tag = HES
-			tag = BRA }
+			tag = BRA
+			}
 			is_colonial_nation = no
 			OR = {
 				ai = no
