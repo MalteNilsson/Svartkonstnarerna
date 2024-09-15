@@ -7245,7 +7245,7 @@ HES_ideas = {
 	}
 	let_in_religious_emigrants = {
 		development_cost = -0.1
-		land_forcelimit = 0.2
+		land_forcelimit_modifier = 0.2
 	}
 	hessian_mercenaries_idea = {
 		mercenary_discipline = 0.05
