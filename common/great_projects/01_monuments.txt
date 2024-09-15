@@ -16495,7 +16495,7 @@ zacatecas_mine_city = {
 }
 
 falun_copper_mine = {
-	start = 8 #Dalaskogen
+	start = 4 #Dalabergslagen
 	date = 1000.01.01
 	time = { months = 0	}
 	build_cost = 0
