@@ -1087,7 +1087,7 @@ PRU_ideas = {
 BRA_ideas = {
 	start = {
 		army_tradition = 0.5
-		diplomats = 1
+		ae_impact = -0.15
 	}
 	
 	bonus = {
@@ -7218,11 +7218,12 @@ SHL_ideas = {
 
 HES_ideas = {
 	start = {
-		infantry_cost = -0.1
-		infantry_power = 0.1
+		land_morale = 0.1
+		ae_impact = -0.15
 	}
 	bonus = {
-		mercenary_discipline = 0.05
+		cavalry_shock = 0.25
+		infantry_fire = 0.25
 	}
 	trigger = {
 		tag = HES
@@ -7231,27 +7232,29 @@ HES_ideas = {
 	free = yes
 
 	modernization_of_the_hessian_army = {
-		land_forcelimit_modifier = 0.2
+		infantry_power = 0.075
+		cavalry_power = 0.075
 	}
 	marburg_university = {
-		idea_cost = -0.1
+		cav_to_inf_ratio = 0.2
+		production_efficiency = 0.1
 	}
 	welcome_reformers = {
-		religious_unity = 0.25
-		church_power_modifier = 0.20
-		monthly_fervor_increase = 0.25
+		build_time = -0.2
+		build_cost = -0.1
 	}
 	let_in_religious_emigrants = {
 		development_cost = -0.1
+		land_forcelimit = 0.2
 	}
 	hessian_mercenaries_idea = {
-		mercenary_manpower = 0.2
+		mercenary_discipline = 0.05
 	}
 	hessian_economic_reforms = {
-		production_efficiency = 0.1
+		global_tax_modifier = 0.1
 	}
 	break_the_hessian_estates = {
-		stability_cost_modifier = -0.1
+		global_manpower = 0.15
 	}
 }
 
@@ -15278,8 +15281,8 @@ CLI_ideas = {
 
 WES_ideas = {
 	start = {
-		build_cost = -0.1
-		land_forcelimit_modifier = 0.25
+		land_morale = 0.1
+		infantry_fire = 0.4
 	}
 	bonus = {
 		global_manpower_modifier = 0.25
@@ -15290,11 +15293,9 @@ WES_ideas = {
 	free = yes
 
 	wes_jewish_rights = {
-		idea_cost = -0.1
 		interest = -0.25
 	}
 	wes_westphalian_decentralisation  = {
-		state_maintenance_modifier = -0.25
 		development_cost = -0.1
 	}
 	wes_increased_conscription = {
@@ -15302,20 +15303,19 @@ WES_ideas = {
 		infantry_power = 0.1
 	}
 	wes_administrative_assimilation_of_rheinlanders = {
-		num_accepted_cultures = 1
-		same_culture_advisor_cost = -0.15
+		advisor_cost = -0.15
 	}
 	wes_taxation = {
 		global_tax_modifier = 0.2
 	}
 	wes_enlightenment = {
-		tolerance_heretic = 2
-		tolerance_heathen = 2
+		technology_cost = -0.1
 	}
 	wes_cities_of_the_rhineland = {
-		global_prov_trade_power_modifier = 0.25
+		global_trade_power = 0.2
 	}
 }
+
 
 SWA_ideas = {
 	start = {
