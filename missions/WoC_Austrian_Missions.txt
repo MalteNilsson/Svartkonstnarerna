@@ -2357,8 +2357,8 @@ WoC_austria_3_germany = {
 		} 
 
 		effect = {  
-			custom_tooltip = HAB_UPGRADE_OFFICERS_PRIVILEGE
-			set_country_flag = hab_military_reform_flag
+			#custom_tooltip = HAB_UPGRADE_OFFICERS_PRIVILEGE
+			#set_country_flag = hab_military_reform_flag
 
 			custom_tooltip = SEPERATOR_TOOLTIP
 
