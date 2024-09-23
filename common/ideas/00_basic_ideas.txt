@@ -962,10 +962,11 @@ exploration_ideas = {
 	category = DIP
 	important = yes
 
-	trigger = { OR = {
+	trigger = { 
+		OR = {
 			technology_group = western 
-          		  technology_group = eastern 
-           		 technology_group = muslim 
+          	technology_group = eastern 
+           	technology_group = muslim 
 			technology_group = ottoman
 			adm_tech = 7
 		} 
@@ -1013,7 +1014,7 @@ exploration_ideas = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0
+			factor = 100
 			is_colonial_nation = yes
 		}
 		modifier = {
@@ -1023,6 +1024,7 @@ exploration_ideas = {
 		modifier = {
 			factor = 0
 			is_subject = yes
+			is_colonial_nation = no
 		}		
 		modifier = {
 			factor = 0
@@ -1459,7 +1461,7 @@ expansion_ideas = {
 	ai_will_do = {
 		factor = 0.5
 		modifier = {
-			factor = 10
+			factor = 1000
 			OR = {
 				has_idea_group = exploration_ideas
 				is_colonial_nation = yes

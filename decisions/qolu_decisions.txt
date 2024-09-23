@@ -151,7 +151,10 @@ country_decisions = {
 		color = { 66 245 242 }
 
 		potential = {
-			ai =  no
+			OR = {
+				ai =  no
+				is_colonial_nation = yes
+			}
 			adm_tech = 5
 			dip_tech = 5
 			capital_scope = {
@@ -174,6 +177,10 @@ country_decisions = {
 			dip_power = 50
 		}
 
+		ai_will_do = {
+			factor = 1
+		}
+
 		effect = {
 			add_dip_power = -50
 
@@ -188,7 +195,10 @@ country_decisions = {
 		color = { 66 245 242 }
 
 		potential = {
-			ai =  no
+			OR = {
+				ai =  no
+				is_colonial_nation = yes
+			}
 			adm_tech = 7
 			dip_tech = 7
 			capital_scope = {
@@ -207,6 +217,10 @@ country_decisions = {
 			dip_power = 50
 		}
 
+		ai_will_do = {
+			factor = 1
+		}
+
 		effect = {
 			add_dip_power = -50
 
@@ -221,7 +235,10 @@ country_decisions = {
 		color = { 66 245 242 }
 
 		potential = {
-			ai =  no
+			OR = {
+				ai =  no
+				is_colonial_nation = yes
+			}
 			adm_tech = 7
 			dip_tech = 7
 			capital_scope = {
