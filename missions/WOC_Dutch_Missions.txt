@@ -2309,23 +2309,9 @@ NED_4_1 = {
                     NOT = { has_country_flag = ned_unlocked_military_reforms_flag }
                 }
                 set_country_flag = ned_unlocked_military_reforms_flag
-                country_event_with_option_insight = {
+                country_event = {
                     id = flavor_hol.3507
-                    option_1 = "
-                        add_dip_power = 100
-                        add_mil_power = 100
-                        add_navy_tradition = 10
-                        add_army_tradition = 10
-                    "
-                    option_2 = "
-                        add_mil_power = 200
-                        add_army_tradition = 20
-                    "
-                    option_3 = "
-                        add_dip_power = 200
-                        add_navy_tradition = 20
-                    "
-                }
+				}
             }
         }   
 	}

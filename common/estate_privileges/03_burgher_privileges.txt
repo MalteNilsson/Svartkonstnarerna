@@ -237,6 +237,11 @@ estate_burghers_enforced_interfaith_dialogue = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
 		modifier = { monthly_russian_modernization = -0.03 }
 	}
+
+	conditional_modifier = {
+		trigger = { has_country_flag = ned_buff_interfaith_dialog_clergy_loyalty_flag }
+		modifier = { church_loyalty_modifier = 0.1 }
+	}
 	#conditional_modifier = {
 	#	trigger = { has_government_mechanic = ottoman_decadence_mechanic }
 	#	modifier = { monthly_ottoman_decadence = 0.02 }
@@ -547,6 +552,17 @@ estate_burghers_free_enterprise = {
 	benefits = {	
 		trade_steering = 0.1
 	}
+
+	conditional_modifier = {
+		trigger = { has_country_flag = ned_buffed_free_enterprises }
+		modifier = { trade_efficiency = 0.1 }
+	}
+
+	conditional_modifier = {
+		trigger = { has_country_flag = ned_buffed_free_enterprises }
+		modifier = { burghers_loyalty_modifier = 0.05 }
+	}
+
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
 		modifier = { monthly_russian_modernization = -0.03 }
@@ -608,6 +624,14 @@ estate_burghers_patronage_of_the_arts = {
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
 		modifier = { monthly_russian_modernization = -0.03 }
+	}
+	conditional_modifier = {
+		trigger = { has_country_flag = ned_patronage_buff_flag }
+		modifier = { prestige = 0.5 }
+	}
+	conditional_modifier = {
+		trigger = { has_country_flag = ned_patronage_buff_flag }
+		modifier = { global_tax_modifier = 0.05 }
 	}
 	conditional_modifier = {
 		trigger = {

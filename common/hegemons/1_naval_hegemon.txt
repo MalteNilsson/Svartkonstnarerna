@@ -10,7 +10,7 @@ naval_hegemon = {
 			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
 		}
 		else = {
-			num_of_heavy_ship = 350
+			num_of_heavy_ship = 175
 			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
 		}
 		NOT = { has_country_modifier = lost_hegemony }
